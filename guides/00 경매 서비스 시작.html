@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet,noimageindex">
+<title>수진 경매 홈페이지 · 잠금</title>
+<style>
+:root{color-scheme:light;--ink:#18212f;--muted:#667085;--line:#d8dee9;--blue:#2457d6}
+*{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f4f6fa;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo",sans-serif}
+.card{width:min(420px,calc(100% - 32px));background:#fff;border:1px solid var(--line);border-radius:22px;padding:28px;box-shadow:0 18px 45px #18212f14}
+h1{margin:0 0 8px;font-size:24px}.sub{margin:0 0 22px;color:var(--muted);line-height:1.55}
+label{display:block;font-weight:750;margin-bottom:7px}input{width:100%;font:inherit;padding:13px 14px;border:1px solid #aeb8c7;border-radius:11px;outline:none}input:focus{border-color:var(--blue);box-shadow:0 0 0 3px #2457d620}
+button{width:100%;margin-top:12px;border:0;border-radius:11px;padding:14px;background:var(--blue);color:#fff;font:700 16px inherit;cursor:pointer}
+.msg{min-height:22px;margin:12px 0 0;color:#c5221f;font-size:14px}.foot{margin-top:18px;color:var(--muted);font-size:12px;line-height:1.5}
+</style></head><body><main class="card"><h1>🔒 수진 경매 홈페이지</h1><p class="sub">비밀번호를 입력하면 이 기기의 현재 탭에서 홈페이지가 열립니다.</p>
+<form id="f"><label for="p">비밀번호</label><input id="p" type="password" autocomplete="current-password" required autofocus><button>홈페이지 열기</button></form>
+<p class="msg" id="m" role="alert"></p><p class="foot">내용은 암호화되어 저장됩니다. 공용 기기에서는 사용 후 탭을 닫으세요.</p></main>
+<script>
+(()=>{
+const BOX={"s":"H55YWwAKlS+uUGFRitknJQ==","n":"Y0OVV+r+9xbh7ctp","c":"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"},ITER=310000,KEY='sujin-auction-session-password';
+const b64=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+async function openSite(password){
+ const material=await crypto.subtle.importKey('raw',new TextEncoder().encode(password),'PBKDF2',false,['deriveKey']);
+ const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b64(BOX.s),iterations:ITER,hash:'SHA-256'},material,{name:'AES-GCM',length:256},false,['decrypt']);
+ const plain=await crypto.subtle.decrypt({name:'AES-GCM',iv:b64(BOX.n)},key,b64(BOX.c));
+ sessionStorage.setItem(KEY,password);
+ document.open();document.write(new TextDecoder().decode(plain));document.close();
+}
+async function attempt(password,quiet=false){try{await openSite(password);return true}catch(e){sessionStorage.removeItem(KEY);if(!quiet)document.getElementById('m').textContent='비밀번호가 맞지 않습니다.';return false}}
+document.getElementById('f').addEventListener('submit',async e=>{e.preventDefault();document.getElementById('m').textContent='확인 중…';await attempt(document.getElementById('p').value)});
+const saved=sessionStorage.getItem(KEY);if(saved)attempt(saved,true);
+})();
+</script></body></html>
